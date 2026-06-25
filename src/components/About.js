@@ -292,9 +292,9 @@ export default function About() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "3rem", alignItems: "center", marginTop: "2rem" }}>
           <div ref={textRef} style={{ opacity: 0 }}>
             <h2 style={{ fontFamily: "Space Grotesk", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, lineHeight: 1.15, marginBottom: "1.5rem", color: "#f8fafc" }}>
-              Building things<br />
+            Shipping products, solving problems<br />
               <span style={{ background: "linear-gradient(135deg, #22d3ee, #a855f7, #ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                I care about.
+              Learning constantly.
               </span>
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", color: "#94a3b8", fontSize: "0.95rem", lineHeight: 1.7 }}>
