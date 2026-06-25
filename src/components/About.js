@@ -300,7 +300,7 @@ export default function About() {
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem", color: "#94a3b8", fontSize: "0.95rem", lineHeight: 1.7 }}>
               <p>I&apos;m a final-year CS student at <strong style={{ color: "#f8fafc" }}>MCT&apos;s Rajiv Gandhi Institute of Technology</strong>, building full stack apps and exploring how AI fits into everyday software.</p>
               <p>My focus is on <span style={{ color: "#22d3ee", fontWeight: 600 }}>Machine Learning and AI</span> — understanding how to use it in real products. I love taking an idea from a blank file to a deployed, working app.</p>
-              <p>I want to work with ambitious people, learn fast, contribute meaningfully, and grow into a stronger engineer.</p>
+              <p>Curious to work with ambitious people, learn fast, contribute meaningfully, and grow into a stronger engineer.</p>
             </div>
           </div>
 
