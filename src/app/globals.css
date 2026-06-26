@@ -20,3 +20,31 @@ body {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #060b18; }
 ::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.4); border-radius: 3px; }
+
+
+@media (max-width: 768px) {
+  .nav-links { display: none !important; }
+  .nav-github { display: none !important; }
+  .nav-hamburger { display: block !important; }
+  
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .skills-grid > div {
+    grid-column: span 1 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-buttons {
+    flex-direction: column !important;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+}

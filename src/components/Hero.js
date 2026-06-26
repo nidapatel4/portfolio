@@ -519,7 +519,7 @@ export default function Hero() {
         </p>
 
         {/* Buttons */}
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", flexWrap: "wrap", marginBottom: "4rem" }}>
+        <div className="hero-buttons" style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", flexWrap: "wrap", marginBottom: "4rem" }}>
           <a href="#projects" style={{ padding: "0.85rem 2.5rem", borderRadius: "999px", fontWeight: 600, fontSize: "0.95rem", color: "#060b18", textDecoration: "none", background: "linear-gradient(135deg, #22d3ee, #a855f7, #ec4899)", boxShadow: "0 0 40px rgba(168,85,247,0.35)", transition: "transform 0.2s" }}
             onMouseOver={e => e.currentTarget.style.transform = "scale(1.05)"}
             onMouseOut={e => e.currentTarget.style.transform = "scale(1)"}>

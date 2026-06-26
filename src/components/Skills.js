@@ -374,7 +374,7 @@ export default function Skills() {
         <p style={{ background: "linear-gradient(135deg, #22d3ee, #a855f7, #ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: "1rem", textAlign: "center" }}>Skills</p>
         <h2 style={{ fontFamily: "Space Grotesk", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, textAlign: "center", marginBottom: "3rem", color: "#f8fafc" }}>Tools I work with</h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}className="skills-grid">
           {bento.map((group, i) => (
             <div
               key={group.title}
